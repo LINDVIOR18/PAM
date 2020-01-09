@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:state_checked="true"
+        android:icon="@mipmap/homeicon"
+        android:title="Home" />
+    <item
+        android:id="@+id/action_notifications"
+        android:icon="@mipmap/notificationicon"
+        android:title="Notifications" />
+
+    <item
+        android:id="@+id/action_newrequest"
+        android:icon="@mipmap/plusicon"
+        android:title="+" />
+
+    <item
+        android:id="@+id/action_schedule"
+        android:icon="@mipmap/scheduleicon"
+        android:title="Schedule" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@mipmap/profileicon"
+        android:title="Profile" />
+</menu>

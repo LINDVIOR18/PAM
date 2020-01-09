@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@mipmap/doctorbg"
+        android:padding="20dp">
+
+    <ImageView
+            android:id="@+id/Photo"
+            android:layout_width="122dp"
+            android:layout_height="123dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginBottom="68dp"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/addphotos"
+            tools:ignore="ContentDescription"/>
+
+    <TextView
+            android:id="@+id/full_name"
+            android:layout_width="164dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/full_name"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/Photo"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+            android:id="@+id/specs_doc"
+            android:layout_width="171dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/specs"
+            android:textColor="#08DA5F"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.71"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/full_name"/>
+
+    <ImageView
+            android:id="@+id/locationIcon"
+            android:layout_width="40dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/Photo"
+            app:layout_constraintTop_toBottomOf="@+id/specs_doc"
+            app:layout_constraintVertical_bias="0.1"
+            app:srcCompat="@mipmap/positionicon"
+            tools:ignore="ContentDescription"/>
+
+    <TextView
+            android:id="@+id/address_doctor"
+            android:layout_width="177dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="32dp"
+            android:text="@string/address"
+            android:textSize="20sp"
+            android:textColor="#AFBEC4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.64"
+            app:layout_constraintStart_toEndOf="@+id/locationIcon"
+            app:layout_constraintTop_toBottomOf="@+id/specs_doc"/>
+
+    <ImageView
+            android:id="@+id/stars_icon"
+            android:layout_width="33dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            app:layout_constraintStart_toEndOf="@+id/Photo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/strar"
+            tools:ignore="ContentDescription"/>
+
+    <TextView
+            android:id="@+id/stars_doctor"
+            android:layout_width="37dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="7dp"
+            android:text="stars"
+            android:textColor="#AFBEC4"
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@+id/stars_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText"/>
+
+</android.support.constraint.ConstraintLayout>

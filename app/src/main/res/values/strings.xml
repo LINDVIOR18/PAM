@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Telemedicine</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="describe_here">Describe Here</string>
+    <string name="description_optional">Description (optional)</string>
+    <string name="where_your_location">Where your location</string>
+    <string name="what_is_your_illness">What is your illness</string>
+    <string name="signup">SIGNUP</string>
+    <string name="email_address">Email Address</string>
+    <string name="fullname">FullName</string>
+    <string name="specs">Specs</string>
+    <string name="full_name">Name</string>
+    <string name="your_full_name">Your Full Name</string>
+    <string name="dd_mm_yy">dd/mm/yy</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="location_address">Location/Address</string>
+    <string name="your_location">Your Location</string>
+    <string name="password">Password</string>
+    <string name="your_password">Your Password</string>
+    <string name="todo">TODO</string>
+    <string name="short_description">Short Description</string>
+    <string name="profile_full_name">Profile Full Name</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="location">Location</string>
+    <string name="birthday">Birthday</string>
+    <string name="textview">textview</string>
+    <string name="your_request_has_been_approved">Your Request Has Been Approved</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipisicing_elit_eligendi_non_quis_exercitationem_culpa_nesciunt_nihil">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil
+    </string>
+    <string name="request_details">Request Details</string>
+    <string name="jojon_suehndra">Jojon Suehndra</string>
+    <string name="desease">Desease</string>
+    <string name="sore_eyes">Sore Eyes</string>
+    <string name="st_broxlyn_212">st. Broxlyn 212</string>
+    <string name="description">Description</string>
+    <string name="aku_ingin_menjadi_setitik_awan_kecil_di_langint_bersama_mentari_yaga_hah">Aku ingin menjadi setitik
+        awan kecil di langint bersama mentari yaga hah
+    </string>
+    <string name="doctor">Doctor</string>
+    <string name="sign_in">LOGIN</string>
+</resources>
